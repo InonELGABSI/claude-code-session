@@ -36,7 +36,7 @@ export default function GamePage() {
               {status === 'idle' ? 'Start' : 'Restart'}
             </button>
           )}
-          {status !== 'idle' && (
+          {status === 'playing' && (
             <button
               onClick={reset}
               className="px-8 py-3 bg-slate-700 hover:bg-slate-600 text-slate-300 font-semibold rounded-lg transition-colors cursor-pointer"
