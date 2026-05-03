@@ -31,9 +31,6 @@ lerna-debug.log*
 .vscode/*
 !.vscode/extensions.json
 .idea/
-.cursor/*
-!.cursor/rules/
-!.cursor/rules/**
 
 # OS/system files
 .DS_Store
