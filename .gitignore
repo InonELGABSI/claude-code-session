@@ -45,3 +45,4 @@ lerna-debug.log*
 # Claude Code local files
 .claude/settings.local.json
 .claude/learning-progress.json
+.claude/settings.local.json
